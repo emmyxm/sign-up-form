@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
+    <div id="form-container">
+        <h2>Login</h2>
     <form action="" method="post">
-        <div>
+        <div class="username">
             <label for="username">Username:</label>
             <input type="text" id="username" placeholder="dak" minlength="3" required>
         </div>
-        <div>
+        <div class="password">
             <label for="password">Password:</label>
             <input type="password" id="password" placeholder="enter password" min="6" required>
         </div>
-        <p>Don't have an Account? <a href="SIGN-UP-FORM/index.html">SignUp</a></p>
+        <div class="link">
+        <p>Don't have an Account? <a href="../index.html">SignUp</a></p>
         <button type="submit">Login</button>
+        </div>
     </form>
 </body>
 </html>
