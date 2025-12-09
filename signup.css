@@ -50,6 +50,13 @@ input {
     padding-left: 5px;
 }
 
+input:invalid{
+    border: 1px red;
+}
+
+input:valid{
+    border: 1px green solid;
+}
 
 input::placeholder {
     display: inline-block;
